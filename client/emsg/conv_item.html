@@ -1,0 +1,9 @@
+<template name="conv_item">
+    <div class="notificate" data-id="{{_id}}" data-path="{{hash}}" data-own="{{userId}}" data-rec="{{to}}" data-cid="{{chatId}}">
+        <img src="../images/users/{{img}}.png" class="img_user">
+        <div>
+            <p><a href="/profil/{{infos.img}}">{{infos.username}}</a></p>
+            <p>{{last_msg}}</p>
+        </div>
+    </div>
+</template>

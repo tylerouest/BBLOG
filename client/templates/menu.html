@@ -1,0 +1,54 @@
+<template name="menu">
+    {{#if loggingIn }}
+        <img src="../assets/loadPage.gif" class="loading_user">
+    {{else}}
+        {{#if currentUser}}
+            <div class="drop-down icons messages">
+                <div id="dropDown" class=" drop-down__button">
+                    <div class="messages" tabindex="0">
+                        <img src="../assets/messages.png" class="icon_messages">
+                        <span class="notification" data-nb="{{nbnotifmsg}}">{{nbnotifmsg}}</span>
+                    </div>
+                </div>
+                <div class="drop-down__menu-box" style="width: 550px;margin-left: -508px;">
+                    <div class="drop-down__menu" style="padding: 0;">
+                        <div class="scrollNotif"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="drop-down icons notif">
+                <div id="dropDown" class=" drop-down__button">
+                    <div class="notifications" tabindex="0">
+                        <img src="../assets/notif.png" class="icon_notif">
+                        <span class="notification " data-nb="{{nbnotif}}">{{nbnotif}}</span>
+                    </div>
+                </div>
+                <div class="drop-down__menu-box" style="width: 550px;margin-left: -508px;">
+                    <div class="drop-down__menu" style="padding: 0;">
+                        <div class="scrollNotif"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="drop-down user">
+                <div id="dropDown" class=" drop-down__button">
+                    <div class="userImg">
+                    <img onerror="this.src='../images/users/user.png'"  src="../images/users/{{uid}}.png" class="user_img">
+                    </div>
+                    <span class="drop-down__name">Connection <b class="caret"></b></span>
+                </div>
+                <div class="drop-down__menu-box">
+                    <ul class="drop-down__menu">
+                        <li id="compte" class="drop-down__item">Mon compte</li>
+                        <li id="userList" class="drop-down__item">Liste des membres</li>
+ {{#if isInRole 'admin'}}<li id="newPost" class="drop-down__item"> Nouvel article</li>{{/if}}
+ {{#if isInRole 'admin'}}<li id="params" class="drop-down__item">Paramètres</li>{{/if}}
+                        <li id="logout" class="drop-down__item">Déconnection  </li>
+                    </ul>
+                </div>
+            </div>
+        {{else}}
+            <a id="signup" class="linkBar">Créer un compte</a>
+            <a id="login" class="linkBar">Se connecter</a>
+        {{/if}}
+    {{/if}}
+</template>

@@ -1,0 +1,10 @@
+Posts = new Mongo.Collection('posts');
+React = new Mongo.Collection('reactions');
+Comments = new Mongo.Collection('comments');
+centre_notifications = new Mongo.Collection('notifications');
+Messages = new Mongo.Collection('messages');
+Conversations = new Mongo.Collection('conversations');
+typing = new Mongo.Collection('typing');
+Questions = new Mongo.Collection('questions');
+//Posts.attachSchema(PostSchema);
+//React.attachSchema(ReactionSchema);

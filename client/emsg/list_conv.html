@@ -1,0 +1,10 @@
+<template name="list_conv">
+    <div class="head_conversations">
+        <img src="../images/users/{{id}}.png" class="owner_emsg">
+        <h1>Discutions</h1>
+        <input type="text" class="search_emsg" placeholder="rechercher des messages">
+    </div>
+    {{#each conversations_list}}
+        {{> conv_item}}
+    {{/each}}
+</template>

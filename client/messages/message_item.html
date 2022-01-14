@@ -1,0 +1,14 @@
+<template name="message_item">
+    <div class="msg_item {{style}}">
+        <img onerror="this.src='../images/users/user.png';this.style.marginTop = '3px'" class="img_message" src="../images/users/{{userId}}.png">
+        <div class="message {{flagStyle}}" data-id="{{_id}}" data-own="{{userId}}">
+            <div>
+                <p class="msg_content">
+                    {{{msg}}}
+                </p>
+            </div>
+        </div>
+        <p class="read">{{flagHelp}}{{flagTime.txt}}</p>
+        <p class="read">{{flagTime.time}}</p>
+    </div>
+</template>

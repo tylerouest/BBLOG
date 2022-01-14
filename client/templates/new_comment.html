@@ -1,0 +1,7 @@
+<template name="newComment">
+    {{#if currentUser}}
+    <div id="new_comment" idArticle="{{_id}}" uid="{{userId}}">
+        <input type="text" id="commentContent" placeholder="écrire un commentaire">
+    </div>
+    {{/if}}
+</template>

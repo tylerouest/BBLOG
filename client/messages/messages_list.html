@@ -1,0 +1,12 @@
+<template name="messages_list">
+    <div id="wave">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <p class="more_messages"><a href="/emsg/{{_id}}" class="link_more">voir les messages précédants</a> </p>
+    {{#each messages}}
+        {{> message_item}}
+    {{/each}}
+
+</template>

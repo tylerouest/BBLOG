@@ -1,0 +1,32 @@
+<template name="newPost">
+    {{#if isInRole 'admin'}}
+        <div class="headerImage">
+            <img class="head" id="imgPrev" src="../images/" filename="">
+            <img class="cover" id="imgPrev2" src="../images/" filename="">
+            <img class="preview" id="imgPrev3" src="../images/" filename="">
+            <button class="btn delete2 red" id="btn_delete2">supprimer</button>
+            <button class="btn btn-upload" id="btn_upload2">Changer la couverture</button>
+            <div class="titleCover">
+                <div class="type"></div>
+                <div class="typedesc"></div>
+            </div>
+            <button class="btn delete red" id="btn_delete">supprimer</button>
+            <button class="btn btn-upload" id="btn_upload">Changer l'image</button>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page">
+                            <input type="file" id="imageUpload">
+                            <input type="file" id="imageUpload2">
+                        <input type="text" id="titre" placeholder="TITRE" value="">
+                        <input type="text" id="type" placeholder="type" value="">
+                        <input type="text" id="typedesc" placeholder="type description" value="">
+                        {{> wysiwyg}}
+                        <button class="btn btn-submit publier">Publier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+</template>

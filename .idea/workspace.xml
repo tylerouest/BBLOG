@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d04a6b6c-1c7e-4f85-83da-793a0443a806" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZXFHFICwQlIrwjqP1l7abDFXsp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="enabled" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="js.meteor.library.was.enabled" value="true" />
+    <property name="js.meteor.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ludo\Desktop\BinariesBlog\imports" />
+      <recent name="C:\Users\ludo\Desktop\blogfinal\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="meteor-app-runner" factoryName="Meteor" nameIsGenerated="true">
+      <option name="exePath" value="$USER_HOME$/AppData/Local/.meteor/meteor.bat" />
+      <option name="startBrowserSettings">
+        <browser url="http://localhost:3000" />
+      </option>
+      <meteor-runner-state>
+        <startBrowserSettings>
+          <browser url="http://localhost:3000" />
+        </startBrowserSettings>
+      </meteor-runner-state>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d04a6b6c-1c7e-4f85-83da-793a0443a806" name="Default Changelist" comment="" />
+      <created>1584977441606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584977441606</updated>
+      <workItem from="1584977444920" duration="7241000" />
+      <workItem from="1584990150649" duration="1309000" />
+      <workItem from="1584992248073" duration="19033000" />
+      <workItem from="1585015847111" duration="13387000" />
+      <workItem from="1585042669876" duration="70847000" />
+      <workItem from="1585191007323" duration="52000" />
+      <workItem from="1585191517939" duration="485000" />
+      <workItem from="1585192591724" duration="2418000" />
+      <workItem from="1585197645583" duration="10267000" />
+      <workItem from="1585263879477" duration="13778000" />
+      <workItem from="1585279220403" duration="11557000" />
+      <workItem from="1585330307371" duration="11664000" />
+      <workItem from="1585395991686" duration="4237000" />
+      <workItem from="1585533125185" duration="601000" />
+      <workItem from="1585586276375" duration="126511000" />
+      <workItem from="1585847736436" duration="17500000" />
+      <workItem from="1585911272992" duration="26204000" />
+      <workItem from="1585940954697" duration="13316000" />
+      <workItem from="1586015691503" duration="24073000" />
+      <workItem from="1586096596090" duration="17617000" />
+      <workItem from="1586256372573" duration="65038000" />
+      <workItem from="1586544842716" duration="2624000" />
+      <workItem from="1586548181613" duration="739000" />
+      <workItem from="1586593636127" duration="13754000" />
+      <workItem from="1586672379162" duration="33925000" />
+      <workItem from="1586785845488" duration="588000" />
+      <workItem from="1586786450707" duration="53028000" />
+      <workItem from="1586894534192" duration="96000" />
+      <workItem from="1586894694664" duration="1203000" />
+      <workItem from="1586898442709" duration="85531000" />
+      <workItem from="1605808467768" duration="1342000" />
+      <workItem from="1605810959785" duration="8095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/blog" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1693" height="302" key="GridCell.Tab.0.bottom" timestamp="1605823959837">
+      <screen x="0" y="0" width="1714" height="1103" />
+    </state>
+    <state width="1693" height="302" key="GridCell.Tab.0.bottom/0.0.1714.1103@0.0.1714.1103" timestamp="1605823959837" />
+    <state width="1693" height="302" key="GridCell.Tab.0.center" timestamp="1605823959837">
+      <screen x="0" y="0" width="1714" height="1103" />
+    </state>
+    <state width="1693" height="302" key="GridCell.Tab.0.center/0.0.1714.1103@0.0.1714.1103" timestamp="1605823959837" />
+    <state width="1693" height="302" key="GridCell.Tab.0.left" timestamp="1605823959837">
+      <screen x="0" y="0" width="1714" height="1103" />
+    </state>
+    <state width="1693" height="302" key="GridCell.Tab.0.left/0.0.1714.1103@0.0.1714.1103" timestamp="1605823959837" />
+    <state width="1693" height="302" key="GridCell.Tab.0.right" timestamp="1605823959837">
+      <screen x="0" y="0" width="1714" height="1103" />
+    </state>
+    <state width="1693" height="302" key="GridCell.Tab.0.right/0.0.1714.1103@0.0.1714.1103" timestamp="1605823959837" />
+    <state x="569" y="284" width="576" height="534" key="find.popup" timestamp="1605812945356">
+      <screen x="0" y="0" width="1714" height="1103" />
+    </state>
+    <state x="569" y="284" width="576" height="534" key="find.popup/0.0.1714.1103@0.0.1714.1103" timestamp="1605812945356" />
+    <state x="514" y="257" key="run.anything.popup" timestamp="1605816570441">
+      <screen x="0" y="0" width="1714" height="1103" />
+    </state>
+    <state x="514" y="257" key="run.anything.popup/0.0.1714.1103@0.0.1714.1103" timestamp="1605816570441" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="meteor-app-runner">
+        <watch expression="global" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

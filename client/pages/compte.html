@@ -1,0 +1,42 @@
+<template name="compte">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="headerImage compte">
+                    <img class="cover" src="../images/04.jpg">
+                    <div class="titleCover">
+                        <div class="type">{{type}}</div>
+                        <div class="typedesc">{{typedesc}}</div>
+                    </div>
+                </div>
+                <div class="user_img_profil">
+                    <img onerror="this.src='../images/users/user.png'" src="../images/users/{{img}}.png" class="img_profil">
+                </div>
+
+                <input type="file" id="imageUpload">
+                <input type="file" id="imageUpload2">
+
+                <div class="page" idpost="{{_id}}">
+                    <div id="comptePage">
+                        <label for="pseudo">Pseudo:</label>
+                        <input type="text" id="pseudo" value="{{username}}">
+                        <label for="nom">Nom:</label>
+                        <input type="text" id="nom" value="{{profile.nom}}">
+                        <label for="nom">Prénom:</label>
+                        <input type="text" id="prenom" value="{{profile.prenom}}">
+                        <label for="mail">E-mail:</label>
+                        <input type="text" id="mail" value="{{email}}">
+                        <label for="ville">Ville:</label>
+                        <input type="text" id="zipcode" value="{{profile.zipcode}}">
+                        <label for="ville">Code postal:</label>
+                        <input type="text" id="ville" value="{{profile.city}}">
+                        <label for="adresse">Adresse:</label>
+                        <input type="text" id="adresse" value="{{profile.adresse}}">
+                        <label for="adresse">Tel:</label>
+                        <input type="text" id="tel" value="{{profile.gsm}}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,14 @@
+<template name="question">
+    <div><strong>{{question}}</strong><br>
+        <div class="radio">
+            <div>
+                <input type="radio" name="reponse{{numQuestion}}" value="{{typeA}}" data-index="{{numQuestion}}">
+                <label for="reponse{{numQuestion}}">{{reponseA}}</label>
+            </div>
+            <div>
+                <input type="radio" name="reponse{{numQuestion}}" value="{{typeB}}" data-index="{{numQuestion}}">
+                <label for="reponse{{numQuestion}}">{{reponseB}}</label>
+            </div>
+        </div>
+    </div>
+</template>

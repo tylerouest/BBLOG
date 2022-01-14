@@ -1,0 +1,9 @@
+<template name="userView">
+    <div class="user_view">
+        <p>pseudo:<a href="" data-user="{{username}}" class="emsg_new">{{username}}</a></p>
+        {{#each emails}}
+            <p>email:{{address}}</p>
+        {{/each}}
+        <p>ville:{{profile.city}}</p>
+    </div>
+</template>

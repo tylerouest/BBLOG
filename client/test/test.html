@@ -1,0 +1,56 @@
+<template name="test">
+
+
+
+
+    <div class="progress-bar">
+        <!--<div class="shadow"></div>-->
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page">
+                    <div id="test">
+                        <div class="container">
+                            <div class="page-header">
+                                <center><h1>MBTI <small>TEST</small></h1></center>
+                            </div>
+                            <div class="container2">
+                                <div id="question">
+                                    {{#each questions}}
+                                        {{> question}}
+                                    {{/each}}
+                                </div>
+                                <p class="text-center">
+                                    <button id="submit" class="btn" style="display: none;">Voir votre résultat</button>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="results" class="text-center ">
+                            <div class="container">
+                                <div id='desc'>
+                                    <h2 id="type"></h2>
+                                    <p id="type-details" class="type-description hidden">
+                                        <strong id="type-title"></strong>
+                                        <strong><span id="type-percentage"></span> de la population</strong>
+                                        <span id="type-description"></span><br>
+                                        <a id="type-site" href="#" target="_blank">Apprennez en plus sur votre type</a>
+                                    </p>
+                                </div>
+                                <div id="contRes">
+                                    <div id="slider"></div>
+                                    <div class="container">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-center">
+                                <button id="submit" class="btn btn-primary btn-lg " style="display: none;">Voir votre résultat</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

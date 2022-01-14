@@ -1,0 +1,22 @@
+<template name="comments">
+    <div class="page comment">
+        <div id="nbComments"></div>
+        <div id="containerComentaires">
+            {{#each dataArrCom}}
+                {{> commentItem}}
+            {{/each}}
+                {{>newComment}}
+        </div>
+        {{#if noMoreItemCom}}
+            <div class="endArt">Fin des commentaires</div>
+        {{/if}}
+        {{#if loadingItemsCom}}
+            <div class="loading"></div>
+        {{/if}}
+        {{#if nbItemsCom}}
+            <button class="btn viewMore">voir plus</button>
+            <div class="nbItems"></div>
+        {{/if}}
+    </div>
+    {{> emoji}}
+</template>

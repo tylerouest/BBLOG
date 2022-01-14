@@ -1,0 +1,19 @@
+<template name="conversations">
+    <div class="conversation closed" data-id="{{_id}}" data-rec="{{to}}" data-own="{{userId}}">
+        <span class="notification" data-nb="{{nbNewMessages}}">{{nbNewMessages}}</span>
+        <div class="message_header">
+            <p class="head_msg">
+                <span class="status_user {{status}}">.</span>
+                <img onerror="this.src='../images/users/user.png'" src="../images/users/{{destination.img}}.png" class="img_conversation">
+                <a href="/profil/{{to}}">{{destination.username}}</a><label>({{destination.email}})</label>
+                <a href="" class="close_conversation">×</a>
+            </p>
+        </div>
+        <div class="message_container {{typing}}">
+            {{> messages_list}}
+        </div>
+        <div class="new_message">
+            <input type="text" class="new_msg_input" placeholder="écrivez un message...">
+        </div>
+    </div>
+</template>

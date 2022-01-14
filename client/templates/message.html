@@ -1,0 +1,16 @@
+<template name="message">
+    <div class="notificate" data-id="{{_id}}" data-path="{{hash}}" data-own="{{userId}}" data-rec="{{to}}" data-cid="{{chatId}}">
+
+        <img onerror="this.src='../images/users/user.png'" src="../images/users/{{img}}.png" class="img_user">
+        <span class="notification" data-nb="{{nbNewMessages}}">{{nbNewMessages}}</span>
+        <div>
+            <p><a href="/profil/{{infos.img}}">{{infos.username}}</a></p>
+            <p>{{last_msg}}</p>
+            <p class="control_notif">
+                <a href="" class="red options">options</a>
+                <a href="/emsg/{{_id}}" class="red options">voir la conversation</a>
+            </p>
+        </div>
+        <a href="" class="del_notif">×</a>
+    </div>
+</template>

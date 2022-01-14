@@ -1,0 +1,14 @@
+<template name="notification">
+    <div class="notificate" data-id="{{_id}}" data-path="{{hash}}" data-parent="{{parentId}}">
+        <img onerror="this.src='../images/users/user.png'" src="../images/users/{{userId}}.png" class="img_user">
+        <div>
+            <p>
+                <a href="/profil/{{userId}}">{{author}}</a> {{subject.un}} <a class="contextA" href="{{url}}">{{subject.deux}}</a> {{subject.trois}}<a class="contextB" href="/{{parentId}}"> {{subject.quatre}}</a>
+            </p>
+            <p class="control_notif">
+                <a href="" class="red options">options</a>
+            </p>
+        </div>
+        <a href="" class="del_notif">×</a>
+    </div>
+</template>

@@ -1,0 +1,40 @@
+<template name="postsList">
+
+    <div class="container">
+        <div class="row ">
+            <!--
+            <div class="col-lg-2">
+                {{> rightColonne}}
+            </div>-->
+            <div class="col-lg-12">
+                <div class="page home">
+                    <div id="containerArticles">
+                        {{#each dataArr}}
+                            {{> postItem}}
+                        {{/each}}
+                        {{#if noMoreItem}}
+                            <div class="endArt">Fin des articles</div>
+                        {{/if}}
+
+
+                        {{#if loadingItems}}
+                            <div class="loading loaderpage bottom">
+                            </div>
+                        {{/if}}
+
+
+                        {{#if nbItems}}
+                            <div class="nbItems"></div>
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="col-lg-2">
+                {{> leftColonne}}
+            </div>-->
+        </div>
+    </div>
+</template>
+
+

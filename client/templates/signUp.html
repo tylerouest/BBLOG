@@ -1,0 +1,36 @@
+<template name="signUp">
+    <div class="container">
+        <div class="signUp">
+            <h2>Enregistrez-vous</h2>
+            <form name="signup" class="">
+                <div class="panel panel_left">
+                    <label for="email" required>E-mail</label>
+                    <input type="text" name ="email" value="starlac4000@gmail.com" required>
+                    <label for="pseudo" required>Pseudo</label>
+                    <input type="text" name="pseudo" value="titi57" required>
+                    <label for="nom" required>Nom</label>
+                    <input type="text" name="nom" value="dupond" required>
+                    <label for="prenom" required>Prénom</label>
+                    <input type="text" name="prenom" value="arthur" required>
+                </div>
+                <div class="panel panel_right">
+                    <label for="adresse">Adresse</label>
+                    <input type="text" name="adresse" value="2 rue de Paris">
+                    <label for="zipcode">Code postal</label>
+                    <input type="text" name="zipcode" value="91000">
+                    <label for="ville" required>Ville</label>
+                    <input type="text" name="ville" value="Paris" required>
+                    <label for="gsm">Téléphone</label>
+                    <input type="text" name="gsm" value="0613453412">
+                </div>
+                <div class="panel panel_center">
+                    <label for="password" required>Mot de passe</label>
+                    <input type="password" name="password" value="668911" required>
+                    <label for="password2" required>Répétez le mot de passe</label>
+                    <input type="password" name="password2" value="668911" required>
+                </div>
+                <button id="signupBtn" class="btn btn-submit">s'enregistrer</button>
+            </form>
+        </div>
+    </div>
+</template>

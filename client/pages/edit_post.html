@@ -1,0 +1,31 @@
+<template name="editPost">
+    {{#if isInRole 'admin'}}
+    <div class="headerImage">
+        <img class="head" id="imgPrev" src="../images/{{url_img}}" filename="{{url_img}}">
+        <img class="cover" id="imgPrev2" src="../images/{{url_img2}}" filename="{{url_img2}}">
+        <button class="btn delete2 red" id="btn_delete2">supprimer</button>
+        <button class="btn btn-upload" id="btn_upload2">Changer la couverture</button>
+        <div class="titleCover">
+            <div class="type">{{type}}</div>
+            <div class="typedesc">{{typedesc}}</div>
+        </div>
+        <button class="btn delete red" id="btn_delete">supprimer</button>
+        <button class="btn btn-upload" id="btn_upload">Changer l'image</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page" idpost="{{_id}}" style="padding-top: 60px;">
+                        <input type="file" id="imageUpload">
+                        <input type="file" id="imageUpload2">
+                    <input type="text" id="titre" placeholder="TITRE" value="{{title}}">
+                    <input type="text" id="type" placeholder="type" value="{{type}}">
+                    <input type="text" id="typedesc" placeholder="type description" value="{{typedesc}}">
+                    {{> wysiwyg2}}
+                    <button class="btn btn-submit publier">Publier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+</template>

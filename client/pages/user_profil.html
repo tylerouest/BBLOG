@@ -1,0 +1,19 @@
+<template name="userProfil">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page">
+                    <div id="userProfil">
+                        <img src="../images/users/{{_id}}.png">
+                        <label for="email"></label>
+                        {{#each emails}}
+                            {{address}}
+                        {{/each}}
+                        <label for="pseudo"></label>
+                        {{username}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

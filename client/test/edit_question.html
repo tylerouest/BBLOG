@@ -1,0 +1,42 @@
+<template name="edit_question">
+    <div class="list_question question" id="{{_id}}" index="{{numQuestion}}">
+        <label for="question">Question:</label>
+        <input type="text" name="question" value="{{question}}">
+        <div class="rep_a">
+            <label for="ReponseA">Reponse A:</label>
+            <input type="text" name="ReponseA" value="{{reponseA}}">
+            {{selA}}
+            <select id="sel_rep_a">
+                <option value="E">Extraversion</option>
+                <option value="I" >Introversion</option>
+                <option value="S">Sensation</option>
+                <option value="N">Intuition</option>
+                <option value="T">Pensée</option>
+                <option value="F">Sentiments</option>
+                <option value="J">Jugement</option>
+                <option value="P">Perception</option>
+            </select>
+            <label for="ValeurA" class="valeur">Valeur:</label>
+            <input type="text" name="ValeurA" class="valeur" value="{{valeurA}}">
+        </div>
+        <div class="rep_b">
+            <label for="ReponseB">Reponse B:</label>
+            <input type="text" name="ReponseB" value="{{reponseB}}">
+            <select id="sel_rep_b">
+                <option value="E">Extraversion</option>
+                <option value="I" >Introversion</option>
+                <option value="S">Sensation</option>
+                <option value="N">Intuition</option>
+                <option value="T">Pensée</option>
+                <option value="F">Sentiments</option>
+                <option value="J">Jugement</option>
+                <option value="P">Perception</option>
+            </select>
+            <label for="ValeurB" class="valeur">Valeur:</label>
+            <input type="text" name="ValeurB" class="valeur" value="{{valeurB}}">
+        </div>
+        <button type="submit" class="btn " id="add_question">Ajouter une nouvelle question</button>
+        <button type="submit" class="btn " id="save_question">Enregistrer la question</button>
+        <button type="submit" class="btn " id="del_question">Supprimer la question</button>
+    </div>
+</template>

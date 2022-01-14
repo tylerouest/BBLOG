@@ -1,0 +1,33 @@
+<template name="commentItem">
+    <div class="commentItem" id="{{_id}}">
+        <div class="profilCom">
+            <img src="../images/users/{{userId}}.png">
+        </div>
+        <div class="{{notread}}">
+            <div class="containerComment" id="{{_id}}" uid="{{userId}}">
+                <a href="profil/{{userId}}">{{author}}</a>
+                <div class="comment">{{body}}</div>
+                <div class="react">
+                    {{> reaction}}
+                </div>
+            </div>
+            <div class="control">
+            {{#if currentUser}}
+                <a class="reacts">J'aime</a>
+                <a class="response">Répondre</a>
+                <a class="delete">Supprimer</a>
+                <a class="emoji"></a>
+                <div class="reactions"></div>
+            {{/if}}
+            </div>
+            <div class="reponse">
+                {{#each dataArrComRep}}
+                    {{> commentItem}}
+                {{/each}}
+            </div>
+            {{#if currentUser}}
+                <div class="nouveau" idcomment="{{_id}}" uid="{{userId}}"></div>
+            {{/if}}
+         </div>
+    </div>
+</template>

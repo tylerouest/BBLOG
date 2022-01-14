@@ -1,0 +1,16 @@
+<template name="parametres">
+    {{#if isInRole 'admin'}}
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page" idpost="{{_id}}">
+                        <div id="parametres">
+                            <button type="submit" class="btn " id="edit_test">Editer les questions du test</button>
+                            <button type="submit" class="btn " id="view_test">Voir le test</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+</template>

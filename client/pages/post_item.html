@@ -1,0 +1,83 @@
+<template name="postItem">
+    <div class="article" id="{{_id}}" idimg="{{url_img2}}">
+        {{#if currentUser}}
+            <!--
+            <div class="control_article">
+                <button class="btn btn-delete">Supprimer</button>
+                <button class="btn btn-modifier">modifier</button>
+            </div>-->
+        {{/if}}
+        <div class="contImg">
+            <img class="imglist" src="../images/upload/mini_{{url_img2}}">
+        </div>
+        <div class="titleCoverPreview">
+            <div class="type">{{type}}</div>
+            <div class="typedesc">{{typedesc}}</div>
+        </div>
+        <div class="conArt">
+            <h3>{{#linkTo route='singlePost'}}{{title}}{{/linkTo}}</h3>
+            {{{desc}}}
+        </div>
+        <div class="reactsArticle">
+            <div class="reactLeft">
+                <img src="../assets/reaction/1.gif" data-react-id="1" class="react1" score="{{listReactions1}}">
+                <div class="tooltip">
+        <span class="tooltiptext">
+        {{#each listReaction1}}
+            {{pseudo}}
+        {{/each}}
+            {{listReactions1}} votes
+        </span>
+                </div>
+                <img src="../assets/reaction/2.gif" data-react-id="2" class="react2" score="{{listReactions2}}">
+                <div class="tooltip">
+        <span class="tooltiptext">
+        {{#each listReaction2}}
+            {{pseudo}}
+        {{/each}}
+            {{listReactions2}} votes
+            </span>
+                </div>
+                <img src="../assets/reaction/3.gif" data-react-id="3" class="react3" score="{{listReactions3}}">
+                <div class="tooltip">
+        <span class="tooltiptext">
+        {{#each listReaction3}}
+            {{pseudo}}
+        {{/each}}
+            {{listReactions3}} votes
+            </span>
+                </div>
+                <img src="../assets/reaction/4.gif" data-react-id="4" class="react4" score="{{listReactions4}}">
+                <div class="tooltip">
+        <span class="tooltiptext">
+        {{#each listReaction4}}
+            {{pseudo}}
+        {{/each}}
+            {{listReactions4}} votes
+            </span>
+                </div>
+                <img src="../assets/reaction/5.gif" data-react-id="5" class="react5" score="{{listReactions5}}">
+                <div class="tooltip">
+        <span class="tooltiptext">
+        {{#each listReaction5}}
+            {{pseudo}}
+        {{/each}}
+            {{listReactions5}} votes
+        </span>
+                </div>
+                <img src="../assets/reaction/6.gif" data-react-id="6" class="react6" score="{{listReactions6}}">
+                <div class="tooltip">
+        <span class="tooltiptext">
+        {{#each listReaction6}}
+            {{pseudo}}
+        {{/each}}
+            {{listReactions6}} votes
+            </span>
+                </div>
+            </div>
+            <div class="reactRight">
+{{nbComment}} commentaires
+            </div>
+        </div>
+    </div>
+</template>

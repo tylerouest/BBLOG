@@ -1,0 +1,42 @@
+<template name="mainLayout">
+    <div id="view" class="">
+        {{> sAlert}}
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    {{#linkTo route='root' class='navbar-brand'}}
+                        Binaries Blog
+                    {{/linkTo}}
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        {{#linkTo route='root'}}
+                            Accueil
+                        {{/linkTo}}
+                    </li>
+                </ul>
+                {{> search}}
+                <div class="nav navbar-nav navbar-right">
+                    {{> menu}}
+                </div>
+            </div>
+        </nav>
+        <div class="scroll_page">
+            {{> yield}}
+        </div>
+        {{#if currentUser}}
+        <div class="emsg" id="emsg">
+
+        </div>
+            {{> online_box}}
+        {{/if}}
+    </div>
+    <div id="preloaded-images">
+        <img src="../images/04.jpg" width="1" height="1" alt="" />
+        <img src="../images/purple.jpg" width="1" height="1" alt="" />
+        <img src="../images/red.jpg" width="1" height="1" alt="" />
+        <img src="../images/blue.jpg" width="1" height="1" alt="" />
+        <img src="../images/green.jpg" width="1" height="1" alt="" />
+
+    </div>
+</template>

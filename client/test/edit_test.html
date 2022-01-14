@@ -1,0 +1,16 @@
+<template name="editTest">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page">
+                    <div id="edit_test">
+                        {{> edit_question}}
+                        {{#each questions}}
+                            {{> edit_question}}
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

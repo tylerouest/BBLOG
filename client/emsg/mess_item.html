@@ -1,0 +1,13 @@
+<template name="mess_item">
+    <div class="msg_item {{style}}">
+        <img class="img_message" src="../images/users/{{userId}}.png">
+        <div class="message" data-id="{{_id}}" data-own="{{userId}}">
+            <div>
+                <p>
+                    {{{msg}}}
+                </p>
+            </div>
+        </div>
+        <p class="read">{{flagHelp}}</p>
+    </div>
+</template>
